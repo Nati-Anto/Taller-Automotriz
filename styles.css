@@ -1,73 +1,103 @@
-/* Estilos para la sección de inicio con fondo */
-.inicio {
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../img/fondo.jpg");
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-}
 
 /* Estilos generales del cuerpo */
 body {
-    background-color: #e0e8f0; /* Fondo azul claro */
-    color: #333; /* Texto oscuro */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #9a8ece; /* Fondo azul claro */
+    color: #0a0202; /* Texto oscuro */
     transition: background-color 0.5s, color 0.5s;
 }
 
 body.light-theme {
-    background-color: #2a2929; /* Fondo oscuro */
-    color: #eee4e4; /* Texto claro */
+    background-color: #f3ebeb; /* Fondo oscuro */
+    color: #080202; /* Texto claro */
 }
 
-/* Otros estilos de tu página */
+/* Estilos para el header */
+header.inicio {
+    background: linear-gradient(rgba(6, 2, 65, 0.514), rgba(0, 0, 0, 0.562)), url("img/fondo.png");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; /* Espacio interno superior e inferior */
+    
+}
 
-/* Footer */
-footer {
-    background-color: #2a52be; /* Azul */
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 20px; /* Ajusta el margen para separar del borde del encabezado */
+    position: absolute;
+    top: 10px; /* Distancia desde arriba */
+    left: 20px; /* Distancia desde la izquierda */
+
+}
+
+.color {
+    color: #3c3b80; /* Color logo personalizado */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 25px;
+    text-align: justify;
+    background-color: rgba(90, 89, 94, 0.411);
+}
+
+#about {
+    background-color: #d7d0f323; /* Fondo blanco para la sección "Nuestro Compromiso" */
+    text-align: center;
+    padding: 25px;
+}
+  
+#servicio {
+    background: linear-gradient(rgba(6, 2, 65, 0.514), rgba(0, 0, 0, 0.562)), url("img/servicio.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; /* Espacio interno superior e inferior */
+    background-color: #e0e8f007; /* Fondo claro para la sección "Servicios Personalizados" */
+}
+
+
+
+#contact {
+    background-color: #0c0d1371; /* Fondo  para la sección "Contacta con Nosotros" */
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 100px;
+}
+
+#contact .redes {
+    margin-top: 40px;
+}
+
+#contact .redes a {
+    color: white;
+    margin: 50px;
+    text-decoration:double;
+}
+
+#contact .redes a:hover {
+    text-decoration: underline;
+    
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0,01px;
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-footer.light-theme {
-    background-color: #ffffff; /* Fondo blanco */
-    color: #333; /* Texto oscuro */
-}
-
-/* Enlaces */
-nav ul li a {
-    color: #2a52be; /* Azul */
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-    color: #1a357a; /* Azul más oscuro al pasar el mouse */
-}
-
-/* Botón de cambio de tema */
-#theme-toggle {
-    background-color: #2a52be; /* Azul */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#theme-toggle:hover {
-    background-color: #1a357a; /* Azul más oscuro al pasar el mouse */
-}
-
-/* Iconos enlaces */
-.redes a {
-    color: #2a52be; /* Azul */
-}
-
-.redes a:hover {
-    color: #1a357a; /* Azul más oscuro al pasar el mouse */
 }
