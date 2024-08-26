@@ -1,0 +1,73 @@
+/* Estilos para la sección de inicio con fondo */
+.inicio {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+/* Estilos generales del cuerpo */
+body {
+    background-color: #e0e8f0; /* Fondo azul claro */
+    color: #333; /* Texto oscuro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.light-theme {
+    background-color: #2a2929; /* Fondo oscuro */
+    color: #eee4e4; /* Texto claro */
+}
+
+/* Otros estilos de tu página */
+
+/* Footer */
+footer {
+    background-color: #2a52be; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer.light-theme {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333; /* Texto oscuro */
+}
+
+/* Enlaces */
+nav ul li a {
+    color: #2a52be; /* Azul */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #1a357a; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Botón de cambio de tema */
+#theme-toggle {
+    background-color: #2a52be; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#theme-toggle:hover {
+    background-color: #1a357a; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Iconos enlaces */
+.redes a {
+    color: #2a52be; /* Azul */
+}
+
+.redes a:hover {
+    color: #1a357a; /* Azul más oscuro al pasar el mouse */
+}
