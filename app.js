@@ -93,3 +93,5 @@ function pintarBarra(id_barra, cantidad, indice, interval){
 window.onscroll = function(){
     efectoHabilidades();
 }
+
+

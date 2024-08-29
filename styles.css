@@ -1,76 +1,105 @@
-
-/* Estilos generales del cuerpo */
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    margin: 0; /* Elimina el margen para un diseño más consistente */
     padding: 0;
-    background-color: #9a8ece; /* Fondo azul claro */
-    color: #0a0202; /* Texto oscuro */
-    transition: background-color 0.5s, color 0.5s;
+    background-color: #1c1c1c; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    transition: background-color 1.5s, color 1.5s;
 }
 
+/* Estilo para el tema claro */
 body.light-theme {
-    background-color: #f3ebeb; /* Fondo oscuro */
-    color: #080202; /* Texto claro */
+    background-color: #f5f5f5; /* Fondo claro */
+    color: #333; /* Texto oscuro */
 }
 
-/* Estilos para el header */
+/* Estilos del header */
 header.inicio {
-    background: linear-gradient(rgba(6, 2, 65, 0.514), rgba(0, 0, 0, 0.562)), url("img/fondo.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/fondo.png");
     background-size: cover;
     background-position: center center;
     color: #fff;
     text-align: center;
-    padding: 100px 0; /* Espacio interno superior e inferior */
-    
+    padding: 100px 0;
 }
 
 .header-content {
-    max-width: 800px;
-    margin: 0 auto;
+    background-color: transparent;
+    padding: 100px 0;
+    text-align: center;
 }
 
 .logo {
     font-size: 2em;
     font-weight: bold;
-    margin: 10px 20px; /* Ajusta el margen para separar del borde del encabezado */
+    margin: 10px 20px;
     position: absolute;
-    top: 10px; /* Distancia desde arriba */
-    left: 20px; /* Distancia desde la izquierda */
-
+    top: 10px;
+    left: 20px;
+    color: #fff;
 }
 
 .color {
-    color: #3c3b80; /* Color logo personalizado */
+    color: #85807a; /* Un color de acento */
+}
+
+/* Animación de texto */
+.animate-text {
+    font-size: 2,3em;
+    color: #fff; /* Texto blanco */
+    margin-bottom: 20px;
+    animation: moveText 2s ease infinite;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateY(1px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+
 }
 
 /* Estilos para las secciones */
 section {
     padding: 25px;
     text-align: justify;
-    background-color: rgba(90, 89, 94, 0.411);
+    background-color: #333; /* Fondo gris oscuro */
+    color: #e0e0e0; /* Texto claro */
 }
 
 #about {
-    background-color: #d7d0f323; /* Fondo blanco para la sección "Nuestro Compromiso" */
+    background-color: #444; /* Fondo gris oscuro */
     text-align: center;
     padding: 25px;
 }
-  
+
 #servicio {
-    background: linear-gradient(rgba(6, 2, 65, 0.514), rgba(0, 0, 0, 0.562)), url("img/servicio.png");
+    background-image: url("img/servicio.png"); 
     background-size: cover;
-    background-position: center;
-    color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff; /* Texto blanco */
     text-align: center;
-    padding: 100px 0; /* Espacio interno superior e inferior */
-    background-color: #e0e8f007; /* Fondo claro para la sección "Servicios Personalizados" */
+    padding: 100px 0;
+    
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-
+.servicio {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 #contact {
-    background-color: #0c0d1371; /* Fondo  para la sección "Contacta con Nosotros" */
+    background-color: #111; /* Fondo negro */
     color: white;
     text-align: center;
     padding: 100px;
@@ -82,21 +111,20 @@ section {
 
 #contact .redes a {
     color: white;
-    margin: 50px;
-    text-decoration:double;
+    margin: 0 10px; /* Ajuste de márgenes para mejor espaciado */
+    text-decoration: none;
 }
 
 #contact .redes a:hover {
     text-decoration: underline;
-    
 }
 
 /* Estilos para el footer */
 footer {
-    background-color: #333;
+    background-color: #000; /* Fondo negro */
     color: white;
     text-align: center;
-    padding: 0,01px;
+    padding: 10px; /* Ajuste de padding para el footer */
     position: fixed;
     width: 100%;
     bottom: 0;
