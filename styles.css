@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 21px;
+    font-size: 23px;
     margin: 0; /* Elimina el margen para un diseño más consistente */
     padding: 0;
     background-color: #1c1c1c; /* Fondo oscuro */
@@ -22,12 +22,12 @@ header.inicio {
     background-position: center center;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .header-content {
     background-color: transparent;
-    padding: 100px 0;
+    padding: 90px 0;
     text-align: center;
 }
 
@@ -83,26 +83,27 @@ section {
 #servicio {
     background-image: url("img/servicio.png"); 
     background-size: cover;
-    background-position: center center;
+    background-position: center ;
     background-repeat: no-repeat;
     color: #fff; /* Texto blanco */
-    text-align: center;
-    padding: 100px 0;
+    text-align: left ;
+    padding: 90px 2;
     
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .servicio {
     max-width: 800px;
     margin: 0 auto;
+   
 }
 
 #contact {
     background-color: #111; /* Fondo negro */
     color: white;
     text-align: center;
-    padding: 100px;
+    padding: 90px;
 }
 
 #contact .redes {
@@ -124,8 +125,33 @@ footer {
     background-color: #000; /* Fondo negro */
     color: white;
     text-align: center;
-    padding: 10px; /* Ajuste de padding para el footer */
+    padding: 2px; /* Ajuste de padding para el footer */
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.redes a {
+    display: inline-block;
+    width: 40px; /* Ancho del círculo */
+    height: 40px; /* Altura del círculo */
+    text-align: center;
+    line-height: 40px; /* Centrar verticalmente */
+    border-radius: 50%; /* Borde redondeado para formar un círculo */
+    background-color: #f0f0f0; /* Color de fondo del círculo */
+    margin-right: 40px; /* Espacio entre íconos (ajustar según necesites) */
+    font-size: 18px; /* Tamaño del ícono */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.redes a i {
+    color: #555; /* Color inicial del ícono */
+}
+
+.redes a:hover {
+    background-color: #8f8888; /* Color de fondo al pasar el mouse */
+}
+
+.redes a:hover i {
+    color: #333; /* Color del ícono al pasar el mouse */
 }
