@@ -100,7 +100,7 @@ section {
 }
 
 #contact {
-    background-color: #111; /* Fondo negro */
+    background-color: #1f1c1cb2; /* Fondo negro */
     color: white;
     text-align: center;
     padding: 90px;
@@ -125,7 +125,7 @@ footer {
     background-color: #000; /* Fondo negro */
     color: white;
     text-align: center;
-    padding: 2px; /* Ajuste de padding para el footer */
+    padding: 1px; /* Ajuste de padding para el footer */
     position: fixed;
     width: 100%;
     bottom: 0;
