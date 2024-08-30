@@ -17,7 +17,7 @@ body.light-theme {
 
 /* Estilos del header */
 header.inicio {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/fondo.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/fondo.jpeg");
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -75,19 +75,19 @@ section {
 }
 
 #about {
-    background-color: #444; /* Fondo gris oscuro */
+    background-color: #2c2b3398; /* Fondo gris oscuro */
     text-align: center;
     padding: 25px;
 }
 
 #servicio {
-    background-image: url("img/servicio.png"); 
+    background-image:linear-gradient(rgba(17, 17, 19, 0.788), rgba(13, 14, 17, 0.8)),  url("img/servicio.jpeg"); 
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
     color: #fff; /* Texto blanco */
     text-align: left ;
-    padding: 90px 2;
+    padding: 60px 2;
     
     max-width: 1000px;
     margin: 0 auto;
@@ -138,14 +138,14 @@ footer {
     text-align: center;
     line-height: 40px; /* Centrar verticalmente */
     border-radius: 50%; /* Borde redondeado para formar un círculo */
-    background-color: #f0f0f0; /* Color de fondo del círculo */
+    background-color: #6e6e757e; /* Color de fondo del círculo */
     margin-right: 40px; /* Espacio entre íconos (ajustar según necesites) */
     font-size: 18px; /* Tamaño del ícono */
     transition: background-color 0.3s ease; /* Transición suave del color de fondo */
 }
 
 .redes a i {
-    color: #555; /* Color inicial del ícono */
+    color: #131212; /* Color inicial del ícono */
 }
 
 .redes a:hover {
