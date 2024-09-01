@@ -156,3 +156,18 @@ footer {
     color: #333; /* Color del ícono al pasar el mouse */
 }
 
+
+/* Estilos para el título h2 */
+body h2 {
+    color: #c0c0c4; /* Color naranja oscuro */
+}
+
+/* Estilos para el enlace de correo electrónico */
+body #emailLink {
+    color: #c3c6c9 !important; /* Color azul */
+}
+
+/* Estilos para el enlace de WhatsApp */
+body #whatsappLink {
+    color: #a4c5ac !important; /* Color verde */
+}
